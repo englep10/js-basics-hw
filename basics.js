@@ -32,7 +32,7 @@ numbers.unshift( 3 );
 var morse = [ "dot", "pause", "dot" ];
 var moreMorse = morse.join( " dash " );
 moreMorse.split( " " );
-
+[ 'dot', 'dash', 'pause', 'dash', 'dot' ]
 // What will the contents of the below array be after the below code sample is executed.
 var bands = [];
 var beatles = [ "Paul", "John", "George", "Pete" ];
