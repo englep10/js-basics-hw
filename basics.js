@@ -1,33 +1,33 @@
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( 15 );
-
+number
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( "hello" );
-
+string
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( [ "dog", "cat", "horse" ] );
-
+array
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( NaN );
-
+number
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 "hamburger" + "s";
-
+hamburgers concatation 
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 "hamburgers" - "s";
-
+NaN because you cant subtract letters/words
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 "johnny" + 5;
-
+johnny5 concatation
 // What is the return value of the below code sample? Provide a sentence or two of explanation.
 99 * "luftbaloons";
-
+NaN
 // What will the contents of the below array be after the below code sample is executed.
 var numbers = [ 2, 4, 6, 8 ];
 numbers.pop();
 numbers.push( 10 );
 numbers.unshift( 3 );
-
+[3, 2, 4, 6, 10]
 // What is the return value of the below code sample?
 var morse = [ "dot", "pause", "dot" ];
 var moreMorse = morse.join( " dash " );
